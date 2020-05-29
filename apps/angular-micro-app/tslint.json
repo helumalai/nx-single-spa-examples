@@ -1,0 +1,20 @@
+{
+  "extends": "../../tslint.json",
+  "rules": {
+    "directive-selector": [
+      true,
+      "attribute",
+      "nxSingleSpaExamples",
+      "camelCase"
+    ],
+    "component-selector": [
+      true,
+      "element",
+      "nx-single-spa-examples",
+      "kebab-case"
+    ]
+  },
+  "linterOptions": {
+    "exclude": ["!**/*"]
+  }
+}
